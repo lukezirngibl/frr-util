@@ -4,6 +4,15 @@
 
 Just a little library that provides some useful functions and a cool data guard pattern HOC.
 
+### Install
+
+```
+yarn add frr-util reselect react react-redux
+```
+```
+npm install frr-util reselect react react-redux
+```
+
 ### Guard Pattern
 
 ```ts
