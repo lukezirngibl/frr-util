@@ -1,6 +1,6 @@
 # Utility Functions and HOC Guard
 
-### Motiviation
+### Motivation
 
 Just a little library that provides some useful functions and a cool data guard pattern HOC.
 
