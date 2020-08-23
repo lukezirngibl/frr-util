@@ -10,10 +10,10 @@ Just a little library that provides some useful functions and a cool data guard 
 
 import { createGuard } from 'frr-util/lib/guards'
 
-export type UserGuardedProps = { user: { name: string } }
+type UserGuardedProps = { user: { name: string } }
 
 // userAsOptionSelector is selector that selects Option<{ user: { name: string } }> from the redux store
-export const userGuard = createGuard<UserGuardedProps>(userAsOptionSelector)
+const userGuard = createGuard<UserGuardedProps>(userAsOptionSelector)
 
 const Page = (props: UserGuardedProps) => {
   return (
